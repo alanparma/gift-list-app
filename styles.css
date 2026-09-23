@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Warm editorial canvas & surfaces */
+  --bg-canvas: #FAF6EF;
+  --bg-surface: #FFFFFF;
+  --bg-hero: #231C18;
+  --border-subtle: #EBE5DB;
+  --border-card: #E5DEC3;
+
+  /* Typography */
+  --text-primary: #1C1917;
+  --text-muted: #78716C;
+  --text-amber-glow: #F2A93B;
+
+  /* Actions & Accents */
+  --accent-coral: #E66A55;
+  --accent-coral-hover: #D75944;
+  --accent-amber: #EAA23B;
+  --accent-amber-hover: #D9922C;
+  --accent-teal: #5FA593;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+}
+
+.font-serif {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+/* Custom rounded aesthetic matching design mockup */
+.rounded-app {
+  border-radius: 1.15rem;
+}
+
+/* Status Chips */
+.status-pill-idea {
+  background-color: #F3EEF9;
+  color: #6C4A9E;
+  border: 1px solid #E1D3F2;
+}
+
+.status-pill-purchased {
+  background-color: #FFF6E7;
+  color: #B46C14;
+  border: 1px solid #F8E0B7;
+}
+
+.status-pill-wrapped {
+  background-color: #EDF7F4;
+  color: #2F7C6B;
+  border: 1px solid #C6EADB;
+}
+
+.status-pill-given {
+  background-color: #F1F4EE;
+  color: #4A6347;
+  border: 1px solid #D5E2D1;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D1C5;
+  border-radius: 4px;
+}
+
